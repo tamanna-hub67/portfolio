@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamanna - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #121212;
+      color: white;
+    }
+
+    header {
+      background: #1e1e1e;
+      color: white;
+      padding: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .profile-img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      margin-bottom: 15px;
+    }
+
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      background: #222;
+      box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      width: 80%;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+      margin: 5px;
+    }
+
+    .btn:hover {
+      background-color: #ccc;
+      transform: scale(1.05);
+    }
+
+    .social-icons a {
+      color: white;
+      margin: 0 15px;
+      font-size: 2em;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ddd;
+      transform: scale(1.2);
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      padding: 15px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- ✅ Profile Photo Inserted -->
+    <img src="profile.image.jpg" alt="Tamanna Photo" class="profile-img">
+    <h1>Tamanna</h1>
+    <p>AWS | DevOps | Full Stack Developer</p>
+  </header>
+
+  <div class="container">
+
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio! I specialize in AWS, DevOps, and Full Stack Development. Passionate about cloud
+        technologies and automation, I aim to build scalable and secure solutions.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <h3>Portfolio Website Deployment on AWS</h3>
+      <p>Deployed this portfolio on AWS using S3 and CloudFront. Built with HTML & CSS.</p>
+
+      <h3>JavaScript Counter</h3>
+      <p>Created an interactive counter using HTML, CSS, and JavaScript showcasing DOM manipulation and events.</p>
+
+      <h3>To-Do List App</h3>
+      <p>Designed a dynamic to-do list application where users can manage tasks. Built with JavaScript, HTML, and CSS.</p>
+
+      <p>You can view all my projects directly on GitHub.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div>
+        <span class="btn">AWS</span>
+        <span class="btn">DevOps</span>
+        <span class="btn">Docker</span>
+        <span class="btn">Terraform</span>
+        <span class="btn">Linux</span>
+        <span class="btn">CI/CD</span>
+        <span class="btn">GitHub Actions</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="social-icons">
+        <a href="mailto:kausertamanna50@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/tamanna53" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <!-- ✅ GitHub Link Updated -->
+        <a href="https://github.com/tamanna-hub67" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Tamanna. All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
